@@ -1,53 +1,99 @@
+
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>http://suraj93.github.io/</loc>
-  <lastmod>2015-08-29T18:37:35+00:00</lastmod>
-</url>
-<url>
-  <loc>http://suraj93.github.io/index.html</loc>
-  <lastmod>2015-08-29T18:37:35+00:00</lastmod>
-</url>
-<url>
-  <loc>http://suraj93.github.io/acads.html</loc>
-  <lastmod>2015-08-29T18:37:35+00:00</lastmod>
-</url>
-<url>
-  <loc>http://suraj93.github.io/research.html</loc>
-  <lastmod>2015-08-29T18:37:35+00:00</lastmod>
-</url>
-<url>
-  <loc>http://suraj93.github.io/experience.html</loc>
-  <lastmod>2015-08-29T18:37:35+00:00</lastmod>
-</url>
-<url>
-  <loc>http://suraj93.github.io/files/suraj-resume.pdf</loc>
-  <lastmod>2015-08-29T18:37:35+00:00</lastmod>
-</url>
-<url>
-  <loc>http://suraj93.github.io/contact.html</loc>
-  <lastmod>2015-08-29T18:37:35+00:00</lastmod>
-</url>
-<url>
-  <loc>http://suraj93.github.io/files/protograph/proto-iwsda-final.pdf</loc>
-  <lastmod>2015-08-29T18:37:35+00:00</lastmod>
-</url>
-<url>
-  <loc>http://suraj93.github.io/files/cmu/flexible-ldpc.pdf</loc>
-  <lastmod>2015-08-29T18:37:35+00:00</lastmod>
-</url>
-<url>
-  <loc>http://suraj93.github.io/files/ecc-convcodes.pdf</loc>
-  <lastmod>2015-08-29T18:37:35+00:00</lastmod>
-</url>
-<url>
-  <loc>http://suraj93.github.io/files/dsa-termpaper.pdf</loc>
-  <lastmod>2015-08-29T18:37:35+00:00</lastmod>
-</url>
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>http://suraj93.github.io</loc>
+        <image:image>
+            <image:loc>http://suraj93.github.io./img/carousel/museum-2.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://suraj93.github.io./img/carousel/cmu-2.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://suraj93.github.io./img/suraj.jpg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>http://suraj93.github.io/index.html</loc>
+        <image:image>
+            <image:loc>http://suraj93.github.io/img/carousel/museum-2.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://suraj93.github.io/img/carousel/cmu-2.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://suraj93.github.io/img/suraj.jpg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>http://suraj93.github.io/about.html</loc>
+    </url>
+    <url>
+        <loc>http://suraj93.github.io/acads.html</loc>
+    </url>
+    <url>
+        <loc>http://suraj93.github.io/research.html</loc>
+        <image:image>
+            <image:loc>http://suraj93.github.io/files/logos/iitm.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://suraj93.github.io/files/protograph/2x3-proto-new.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://suraj93.github.io/files/protograph/runningex-de-conv-eps.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://suraj93.github.io/files/logos/cmu.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://suraj93.github.io/files/cmu/add_4.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://suraj93.github.io/files/cmu/de_multi_1.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://suraj93.github.io/files/mbrai/simurosot.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://suraj93.github.io/files/analog.jpg</image:loc>
+        </image:image>
+        <loc>http://suraj93.github.io/files/protograph/proto-iwsda-final.pdf</loc>
+        <lastmod>2015-08-29T18:37:35+00:00</lastmod>
+        <loc>http://suraj93.github.io/files/cmu/flexible-ldpc.pdf</loc>
+        <lastmod>2015-08-29T18:37:35+00:00</lastmod>
+        <loc>http://suraj93.github.io/files/ecc-convcodes.pdf</loc>
+        <lastmod>2015-08-29T18:37:35+00:00</lastmod>
+        <loc>http://suraj93.github.io/files/dsa-termpaper.pdf</loc>
+        <lastmod>2015-08-29T18:37:35+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://suraj93.github.io/experience.html</loc>
+        <image:image>
+            <image:loc>http://suraj93.github.io/files/logos/docsapp.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://suraj93.github.io/files/experience/docsapp-app.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://suraj93.github.io/files/logos/Shaastra-logo.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://suraj93.github.io/files/experience/shaastra.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://suraj93.github.io/files/logos/gadgetronica.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://suraj93.github.io/files/experience/gadgetronica.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://suraj93.github.io/files/logos/nptel.jpg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>http://suraj93.github.io/contact.html</loc>
+    </url>
 </urlset>
