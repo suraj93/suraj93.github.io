@@ -1,138 +1,237 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equic="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Surajkumar - The Personal Website">
+    <meta name="keywords" content="suraj, harikumar, surajkumar, surajkumar harikumar, suraj kumar h, surajkumar h, iit, iitm, iit madras, communications, tech blogging, research, electrical engineering, andrew thangaraj, pulkit grover, ldpc codes, protograph, bit meter, carnegie mellon, gadgetronica, research">
+    <meta name="author" content="Surajkumar Harikumar">
+    <link rel="shortcut icon" href="./img/stan-logo.png">
 
-<!--
-This is an HTML document. It contains information about how elements in the website
-are arranged. In other words, it describes the layout of a website.
+    <title>Surajkumar Harikumar - The Personal Website</title>
 
-I can't wait to see the resumes you put together!
-
-Cameron Pittman, Udacity Course Developer
--->
-
-<!--
-The <head> of a website generally links to important resources the page will
-need to load. You'll see a lot of <link>s to CSS files for styles and
-<scripts> for JavaScript files to build interactions.
--->
-<head>
-  <link href="css/style.css" rel="stylesheet" type="text/css"></link>
-
-  <!--
-  jQuery is a common JavaScript library for reading and making changes to the
-  Document Object Model (DOM). The DOM is a tree that contains information
-  about what is actually visible on a website.
-
-  While HTML is a static document, the browser converts HTML to the
-  DOM and the DOM can change. In fact, JavaScript's power comes from
-  its ability to manipulate the DOM, which is essentially a JavaScript
-  object. When JavaScript makes something interesting happen on a
-  website, it's likely the action happened because JavaScript changed
-  the DOM. jQuery is fast and easy to use, but it doesn't do anything
-  you can't accomplish with vanilla (regular) JavaScript.
-  -->
-  <script src="js/jQuery.js"></script>
-
-  <!-- More on helper.js in the class -->
-  <script src="js/helper.js"></script>
-
-  <!--
-  Uncomment the <script> tag below when you're ready to add an interactive
-  Google Map to your resume!
-  -->
-   <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script> 
-
-  <meta name="viewport" content="width=device-width">
-</head>
-<body unresolved>
-  <div id="main">
-     <!-- You'll be deleting this line in the course -->
-
-    <!--
-    Everything from here to the <script> tag below is the skeleton of your
-    website. Your code will add information to each of the sections of the
-    resume below. You can pretty easily figure out what each section will
-    display by looking at the id or at what's written between the <h2> tags.
-    -->
-    <div id="header" class="center-content">
-      <ul id="topContacts" class='flex-box'></ul>
-    </div>
-    <div style='clear: both;'></div>
-    <div id="workExperience" class='gray'>
-      <h2>Professional Experience</h2>
-    </div>
-    <div id="projects">
-      <h2>Projects</h2>
-    </div>
-    <div id="education" class='gray'>
-      <h2>Education</h2>
-    </div>
-    <div id="skillsChart">
-      <h2>Skills Chart</h2>
-    </div>
-    <div id="mapDiv">
-      <h2>Where I've Lived and Worked</h2>
-    </div>
-    <!--<div id="letsConnect" class='dark-gray'>
-      <h2 class='orange center-text'>Let's Connect</h2>
-      <ul id="footerContacts" class="flex-box">
-      </ul>
-    </div>-->
-  </div>
-
-  <!--
-  The next line tells the browser where to download the JavaScript file you'll be
-  writing. In resumeBuilder.js, you'll be writing code that builds the resume
-  dynamically when this website, index.html, is opened.
-  -->
-  <script src="js/resumeBuilder.js"></script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+        <script src="./js/html5shiv.js"></script>
+        <script src="./js/respond.min.js"></script>
+    <![endif]-->
 
 
-  <!--
-  These scripts are written in JavaScript. You'll be breaking them down as part of
-  a quiz. Essentially, the next few lines are checking to see if you have not
-  changed each section of the resume. If you have not made any changes to a section
-  of the resume, then that part of the resume does not show up. More on this in the
-  course.
-  -->
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/flat-ui.css" rel="stylesheet">
+    <link href="./css/bootstrap-social.css" rel="stylesheet">
+    <!-- <link href="./css/bootstrap-social.less" rel="stylesheet"> -->
 
-  <script type="text/javascript">
-  // Notice how all of a sudden there's JavaScript inside this HTML
-  // document? You can write JavaScript between <script> tags. At the end of your 
-  // JavaScript, don't forget the closing script tag with the slash (/).
+    <!-- Custom styles for this template -->
+    <link href="./css/offcanvas.css" rel="stylesheet">
+    <link href="./css/custom.css" rel="stylesheet">
 
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
 
-  // Also, this is a JavaScript style comment. You can comment in JavaScript with:
+    <!-- Page specific CSS -->
+    <style type="text/css">
+    .jumbotron{
+      background: rgba(0,0,0,0.4);
+      color: rgba(255,255,255,1);
+    }
+    </style>
 
-  //   two slashes for all following characters on a single line, or
+    <!-- Google Analytics Code -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  /*
-      an opening and closing set of slash asterisks for block comments.
-  */
+    ga('create', 'UA-66810317-1', 'auto');
+    ga('send', 'pageview');
 
-
-  if(document.getElementsByClassName("flex-item").length === 0) {
-    document.getElementById("topContacts").style.backgroundColor = "black";
-  }
-  if(document.getElementsByTagName("h1").length === 0) {
-    document.getElementById("header").style.backgroundColor = "black";
-  }
-  if(document.getElementsByClassName("work-entry").length === 0) {
-    document.getElementById("workExperience").style.backgroundColor = "black";
-  }
-  if(document.getElementsByClassName("project-entry").length === 0) {
-    document.getElementById("projects").style.backgroundColor = "black";
-  }
-  if(document.getElementsByClassName("education-entry").length === 0) {
-    document.getElementById("education").style.backgroundColor = "black";
-  }
-  if(document.getElementsByClassName("skills-entry").length === 0) {
-    document.getElementById("skillsChart").style.backgroundColor = "black";
-  }
-  if(document.getElementsByClassName("flex-item").length === 0) {
-    document.getElementById("letsConnect").style.backgroundColor = "black";
-  }
-  if(document.getElementById("map") == undefined) {
-    document.getElementById("mapDiv").style.backgroundColor = "black";
-  }
   </script>
-</body>
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="glyphicon glyphicon-th" style="color:#fff;"></span>
+         </button>
+          <a class="navbar-brand" href="./index.html">Surajkumar.Harikumar</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <!-- <li><a href="./about.html"><span class="glyphicon glyphicon-user"></span> About Me</a></li> -->
+            <!-- <li><a href="./about.html"><span class="glyphicon glyphicon-user"></span> About  Me</a></li> -->
+            <li><a href="./acads.html"><span class="glyphicon glyphicon-book"></span> Education</a></li>
+            <!-- <li><a href="./competitions.html"><span class="glyphicon glyphicon-dashboard"></span> Competitions</a></li> -->
+            <li><a href="./research.html"><span class="glyphicon glyphicon-cog"></span> Research</a></li>
+            <li><a href="./experience.html"><span class="glyphicon glyphicon-stats"></span> Experience</a></li>
+            <li><a href="./files/suraj-resume.pdf" target="_blank"><span class="glyphicon glyphicon-save"></span> Resume</a></li>
+            <li><a href="./contact.html"><span class="glyphicon glyphicon-earphone"></span> Contact</a></li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div><!-- /.container -->
+    </div><!-- /.navbar -->
+
+
+<div id="myCarousel" class="carousel slide">
+<div class="carousel-caption">
+          <div class="overlay"><h3>Hello, I am Surajkumar Harikumar</h3>
+            <h6>Researcher, Undergrad, Startup Enthusiast, Web Developer, Tech-Geek</h6>
+          </div>
+          </div>
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <!-- <li data-target="#myCarousel" data-slide-to="2"></li> -->
+  </ol>
+  <div class="carousel-inner ">
+    <div class="item active">
+      <img src="./img/carousel/museum-2.jpg" class="img-responsive" height="auto">
+      <div class="container">
+        <div class="carousel-caption">
+          
+        </div>
+      </div>
+    </div>
+    <div class="item ">
+      <img src="./img/carousel/cmu-2.jpg" class="img-responsive" height="auto" >
+      <div class="container">
+        <div class="carousel-caption">
+          
+        </div>
+      </div>
+    </div>
+    
+    <!-- <div class="item">
+      <img src="http://placehold.it/1500X500" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+          
+        </div>
+      </div>
+    </div> -->
+  </div>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <i class="glyphicon glyphicon-chevron-left"></i>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <i class="glyphicon glyphicon-chevron-right"></i>
+  </a>  
+</div>
+<!-- /.carousel -->
+
+
+
+
+
+    
+
+   <!-- <div class="col-xs-6 col-sm-3 sidebar-offcanvas visible-xs visible-md visible-lg" id="sidebar" role="navigation">
+          <div class="list-group sidebar-nav">
+            <a href="#" class="list-group-item active">
+              Quick Links
+            </a>
+            <a href="./files/CV_research.pdf" target="_blank" class="list-group-item">Curriculum Vitae</a>
+            <a href="./acads.html#skills" class="list-group-item">Skills</a>
+            <a href="./competitions.html" class="list-group-item">Competitions</a>
+            <a href="./research.html" class="list-group-item">Research</a>
+          </div>
+        </div><!--/span--> 
+<br/><br/>
+
+    <div class="container">
+      <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Side-Bar</button>
+          </p>
+          <div class="jumbotron">
+            <img src="./img/suraj.jpg" width="35%" height="35%" style="float:right;vertical-align:middle;border-radius:16px;" />
+            <h3>Surajkumar Harikumar</h3>
+            <p>Senior Undergraduate</br>Department of Electrical Engineering</br> Indian Institute of Technology (IIT), Madras</br> Chennai - 600 036</p><br/>
+              <div style="width: 50%;    margin: 0 auto;">
+              <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/suraj.harikumar">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/SurajHarikumar">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a class="btn btn-social-icon btn-linkedin" href="https://in.linkedin.com/in/surajkumarharikumar">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a class="btn btn-social-icon btn-github" href="https://github.com/suraj93/">
+                <i class="fa fa-github"></i>
+              </a>
+              <a class="mailto:surajh.93@gmail.com" href="https://github.com/suraj93/">
+                <img src="./img/email.ico" height="36px"></i>
+              </a>
+            </div>
+          </div>
+          
+          </div>
+          <div id="about_me" class="col-md-6 col-lg-6">
+            <p>Hello there ! However you may have stumbled upon this website, it exists, and therefore you must as well. I'm Suraj (Surajkumar Harikumar is quite long for regular use). This website documents my life, my passions, and my work so far. 
+              I was born and brought up in Chennai, India, a city of Music, Dosas, Festivals, and Culture. I have spent almost my whole life in this wonderful city, save for my 2 month internship at Carnegie Mellon University (the pictures above are from Boston and the CMU campus). 
+            </p>
+            <p>
+              I am currently in the 5th year of my 5-year Dual Degree (B.Tech & M.Tech) program in <a href="http://www.ee.iitm.ac.in/">Electrical Engineering</a> at <a href="http://www.iitm.ac.in/">Indian Institute of Technology (IIT) Madras</a>. I am working under Prof. Andrew Thangaraj on Communication, Coding, and Information Theory problems. 
+            </p>
+            <p>
+              I am excited by new technology, hard challenges and innovation. 
+
+              <!-- My current research focus is on Coding Theory, for caching, storage and distribtuion of files. -->
+
+               My interests span a wide variety of areas, from Virtual Reality, to Internet-of-Things devices, to Artificial Intelligence. 
+
+              I'm an avid reader (physical and digital), podcast listener, huge music fan (transitinoning from old school rock to fusion electronic), occasional tech writer and musician. 
+            </p>
+
+             <!--  <p>Hi! Thank you for visiting my website. I am Mani (Manikandasriram is too long for people to use on a regular basis :D), born and brought up in Chennai, India and I've pretty much spent my entire life in this city. My passion defines me and drives me. I do what I like to do and I do it right! Robotics and Web development have been the two major sides to my tech life so far. During other times, I like to dance, drive and dream.</p>
+              <p> I am currently in the pre-final year of my 5-year Dual Degree (B.Tech & M.Tech) program in <a href="http://www.ee.iitm.ac.in/">Electrical Engineering department</a> at <a href="http://www.iitm.ac.in/">Indian Institute of Technology (IIT) Madras</a>. I am currently working under Prof. Bharath Bhikkaji on consensus control for multi-robot systems built using Lego Mindstorms&reg; kits. <em><a href="#" id="readMore">A slightly longer about me +</a></em>
+              </p>
+              <p id="longer_about_me" style="display:none;">I am fascinated by <em>Intelligent agents</em>. My first experience with embedded systems was in my first year in college when my hostel seniors introduced me to Atmega 16 micro-controller. Since then, my enthusiasm for control, automation, robotics have been ever increasing. Having spent three years of my college taking part in competitions and working on various projects, I can now tell with confidence that I am no newbie to this field. At the same time, I am aware that Robotics is a highly multi-disciplinary field which is still in its youth. I am excited to work in this field that I am deeply passionate about.<br/><br/>
+              On the flipside, I love physics and in particular, Astrophysics. I still get goosebumps thinking about the vastness that lies beyond our perceivable senses. If you have read <em> The Universe in a Nutshell</em> by Stephen Hawking, you would be able to relate to this more easily. It is a beautifully written text which is a must-read for anyone who is curious about the Space!<br/><br/>
+              </p> -->
+              <!-- <strong class="ubuntu">Keywords: Control, Swarm Robotics, Artificial Intelligence, Formation Control</strong> -->
+            </div>
+        </div><!--/span-->
+      </div><!--/row-->
+
+        
+
+      <hr>
+
+      <footer>
+        <p class="text-center" style="color:black">&copy; Surajkumar Harikumar 2015 | <a href="mailto:surajh.93@gmail.com">surajh.93@gmail.com</a> | Design Inspiration: <a href="http://srmanikandasriram.github.io">Manikandasriram S R</a> | Last Update: 07<sup>th</sup> June 2014</p>
+      </footer>
+
+    </div><!--/.container-->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/offcanvas.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $("#readMore").click(function(){
+        $("#longer_about_me").slideDown();
+        $(this).hide();
+      });
+    });
+    </script>
+  </body>
+</html>
