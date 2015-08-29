@@ -1,5 +1,4 @@
 
-
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -15,7 +14,6 @@
         <image:image>
             <image:loc>http://suraj93.github.io./img/suraj.jpg</image:loc>
         </image:image>
-        <lastmod>2015-08-29T18:37:35+00:00</lastmod>
     </url>
     <url>
         <loc>http://suraj93.github.io/index.html</loc>
@@ -28,15 +26,12 @@
         <image:image>
             <image:loc>http://suraj93.github.io/img/suraj.jpg</image:loc>
         </image:image>
-        <lastmod>2015-08-29T18:37:35+00:00</lastmod>
     </url>
     <url>
         <loc>http://suraj93.github.io/about.html</loc>
-        <lastmod>2015-08-29T18:37:35+00:00</lastmod>
     </url>
     <url>
         <loc>http://suraj93.github.io/acads.html</loc>
-        <lastmod>2015-08-29T18:37:35+00:00</lastmod>
     </url>
     <url>
         <loc>http://suraj93.github.io/research.html</loc>
@@ -64,11 +59,6 @@
         <image:image>
             <image:loc>http://suraj93.github.io/files/analog.jpg</image:loc>
         </image:image>
-        <loc>http://suraj93.github.io/files/protograph/proto-iwsda-final.pdf</loc>
-        <loc>http://suraj93.github.io/files/cmu/flexible-ldpc.pdf</loc>
-        <loc>http://suraj93.github.io/files/ecc-convcodes.pdf</loc>
-        <loc>http://suraj93.github.io/files/dsa-termpaper.pdf</loc>
-        <lastmod>2015-08-29T18:37:35+00:00</lastmod>
     </url>
     <url>
         <loc>http://suraj93.github.io/experience.html</loc>
@@ -93,10 +83,29 @@
         <image:image>
             <image:loc>http://suraj93.github.io/files/logos/nptel.jpg</image:loc>
         </image:image>
-        <lastmod>2015-08-29T18:37:35+00:00</lastmod>
     </url>
     <url>
         <loc>http://suraj93.github.io/contact.html</loc>
-        <lastmod>2015-08-29T18:37:35+00:00</lastmod>
     </url>
+
+    <url>
+  <loc>http://suraj93.github.io/files/protograph/proto-iwsda-final.pdf</loc>
+  <lastmod>2015-08-29T18:37:35+00:00</lastmod>
+</url>
+<url>
+  <loc>http://suraj93.github.io/files/cmu/flexible-ldpc.pdf</loc>
+  <lastmod>2015-08-29T18:37:35+00:00</lastmod>
+</url>
+<url>
+  <loc>http://suraj93.github.io/files/ecc-convcodes.pdf</loc>
+  <lastmod>2015-08-29T18:37:35+00:00</lastmod>
+</url>
+<url>
+  <loc>http://suraj93.github.io/files/dsa-termpaper.pdf</loc>
+  <lastmod>2015-08-29T18:37:35+00:00</lastmod>
+</url>
+<url>
+  <loc>http://suraj93.github.io/files/suraj-resume.pdf</loc>
+  <lastmod>2015-08-29T18:37:35+00:00</lastmod>
+</url>
 </urlset>
