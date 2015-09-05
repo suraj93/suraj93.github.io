@@ -22,6 +22,7 @@
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.css" rel="stylesheet">
     <link href="./css/flat-ui.css" rel="stylesheet">
+    <link href="./css/flat-ui.min.css" rel="stylesheet">
     <link href="./css/bootstrap-social.css" rel="stylesheet">
     <!-- <link href="./css/bootstrap-social.less" rel="stylesheet"> -->
 
@@ -80,7 +81,7 @@
     </div><!-- /.navbar -->
 
 
-<div id="myCarousel" class="carousel slide">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
 <div class="carousel-caption">
           <div class="overlay"><h3>Hello, I am Surajkumar Harikumar</h3>
             <h6>EE Undergrad, Startup Enthusiast, Budding Researcher, Web Developer, Tech-Geek</h6>
@@ -223,14 +224,19 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="./js/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/offcanvas.js"></script>
     <script type="text/javascript">
-    $(document).ready(function(){
-      $("#readMore").click(function(){
-        $("#longer_about_me").slideDown();
-        $(this).hide();
-      });
+
+    $(window).load(function() {        
+
+        $('.carousel').carousel({
+            interval: 3000,
+            wrap: true,
+        });
+
     });
     </script>
   </body>
